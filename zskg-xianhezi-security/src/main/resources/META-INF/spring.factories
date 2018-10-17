@@ -1,0 +1,3 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+com.zsgroup.xianhezi.security.config.UploadConfig,\
+com.zsgroup.xianhezi.security.config.WebConfig

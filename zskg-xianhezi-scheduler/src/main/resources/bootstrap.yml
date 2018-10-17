@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: scheduler
+  cloud:
+    config:
+      uri: ^maven.config.uri^
+      profile: ^maven.config.profile^

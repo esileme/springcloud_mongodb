@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: api
+  cloud:
+    config:
+      uri: ^maven.config.uri^
+      profile: ^maven.config.profile^
+security:
+  jwt:
+    secret: k09BQnaF
+    expiration: 1728000 #20Days

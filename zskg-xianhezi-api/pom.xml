@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<project
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd"
+	xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>com.zsgroup.xianhezi</groupId>
+		<artifactId>zskg-xianhezi</artifactId>
+		<version>0.0.1</version>
+	</parent>
+	<artifactId>zskg-xianhezi-api</artifactId>
+	<name>zskg-xianhezi-api</name>
+	<description>h5端、pc端、app端接口服务</description>
+	<packaging>jar</packaging>
+
+	<properties>
+		<start-class>com.zsgroup.xianhezi.api.ApiApplication</start-class>
+	</properties>
+
+	<dependencies>
+		<dependency>
+			<groupId>com.zsgroup.xianhezi</groupId>
+			<artifactId>zskg-xianhezi-common</artifactId>
+			<version>0.0.1</version>
+		</dependency>
+        <dependency>
+            <groupId>com.zsgroup.xianhezi</groupId>
+            <artifactId>zskg-xianhezi-security</artifactId>
+            <version>0.0.1</version>
+        </dependency>
+    </dependencies>
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.springframework.boot</groupId>
+				<artifactId>spring-boot-maven-plugin</artifactId>
+			</plugin>
+		</plugins>
+	</build>
+</project>

@@ -1,0 +1,13 @@
+server:
+  port: 8888
+spring:
+  application:
+    name: config
+  cloud:
+    config:
+      server:
+        git:
+          uri: ^maven.config.git.uri^
+          search-paths: ^maven.config.git.searchPaths^
+          username: ^maven.config.git.username^
+          password: ^maven.config.git.password^
